@@ -1,0 +1,84 @@
+.mg-bt-sm {
+  margin-bottom: 1rem;
+}
+
+.mg-bt-md {
+  margin-bottom: 2rem;
+}
+
+.mg-bt-lg {
+  margin-bottom: 3rem;
+}
+
+.mg-tp-xs {
+  margin-top: 0.5rem;
+}
+
+.mg-tp-sm {
+  margin-top: 1rem;
+}
+
+.mg-tp-md {
+  margin-top: 2rem;
+}
+
+.mg-tp-lg {
+  margin-top: 3rem;
+}
+
+.mg-tp-xl {
+  margin-top: 10rem;
+}
+
+.txt-ali-cen {
+  text-align: center;
+}
+
+.disp-grid {
+  display: grid;
+}
+
+.flow-col {
+  grid-auto-flow: column;
+}
+
+.hover-scale {
+  transition: all 0.2s ease-in-out;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+// react-loader
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+}
+
+.ball-scale-ripple {
+  display: flex;
+  justify-content: center;
+
+  div {
+    height: 16px !important;
+    width: 16px !important;
+  }
+}
+
+@import "loaders.css/src/animations/ball-scale-ripple.scss";
+// presentationl components style
+@import "./components/presentational/modal/modalStyle.scss";
+@import "./components/presentational/inputFields/inputStyle.scss";
+@import "./components/presentational/button/buttonStyle.scss";
+
+// page style
+@import "./pages/signIn/signInStyle.scss";
+@import "./pages/regsiter/registerStyle.scss";

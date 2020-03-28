@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #2076d9;
+  color: white;
+  border-radius: 1rem 1rem 0 0;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.field-container {
+  margin-top: 2rem;
+
+  display: grid;
+  justify-content: center;
+}
+
+.sign-in-email {
+  width: 20rem;
+}
+
+.sign-in-password {
+  width: 20rem;
+}
+
+.sign-in-btn {
+  width: 20rem;
+}
+
+.forgot-password {
+  justify-self: end;
+  color: #2076d9;
+
+  cursor: pointer;
+}
+
+.dont-have-account {
+  p:first-child {
+    color: #cfc5c5 !important;
+  }
+
+  p:last-child a {
+    color: #2076d9 !important;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,26 @@
+.register-form-container {
+	&__comany-logo {
+		height: 100vh;
+		position: relative;
+
+		&--modal {
+			width: 0;
+
+			img {
+				width: 120px;
+				border-radius: 50%;
+				box-shadow: 1px 3px 20px -15px rgba(0, 0, 0, 0.75);
+			}
+		}
+	}
+
+	&__form {
+		height: 100vh;
+
+		position: relative;
+
+		&--modal {
+			transition: all 1s ease-in-out;
+		}
+	}
+}
